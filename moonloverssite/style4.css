@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body {
+	font-family: "Source Sans 3";
+	font-style: normal;
+	background-color: #f0f0f0;
+	background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+	width:99%;
+    height: 100%;
+	color:#042d62;
+
+}
+.menu{
+    display: flex;
+  justify-content: space-between;
+  align-items: right;
+  background-color:#042d62;
+  padding: 10px 50px;
+
+}
+.image_menu{
+    float:left;
+    width: 20%;
+    height: 40%;
+    padding-top: 8px;
+}
+
+.nav-menu li { 
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color:#f0f0f0;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    opacity: 0.5;
+    
+}
+.products-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color:#f0f0f0;
+    width: 80%;
+    padding-left: 150px;
+  }
+  
+  .products-container h2 {
+    color:#042d62; 
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #042d62;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .product-card {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  } 
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card h3 {
+    color:#042d62;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-card img {
+    width: 300px;
+    
+    height: auto;
+    object-fit: cover;
+  }
+  footer {
+    background-color:#042d62;
+    color:#f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+.image{
+    width: 350px;
+    margin-top: 55px;
+}
